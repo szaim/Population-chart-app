@@ -9,6 +9,7 @@ function getData(year, country){
 	});
 };
 
+
 // getData('2016', 'Morocco');
 function showData(data){
 
