@@ -1,5 +1,5 @@
 function getData(year, country){
-	var link = "https://api.population.io/1.0/population/"+year+"/"+country+"/?type=country";
+	var link = "http://api.population.io/1.0/population/"+year+"/"+country+"/?type=country";
     var params = {
 		type: 'country',
 	};
