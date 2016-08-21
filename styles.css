@@ -1,0 +1,53 @@
+body {
+	background-color: white;
+}
+
+
+.container {
+  width: 70%;
+	
+}
+
+#header {
+	text-align: center;
+}
+
+h1 { color: #195EB2; 
+	font-family: 'Raleway', sans-serif; 
+	font-size: 64px; 
+	font-weight: 700; 
+	line-height: 64px; 
+	text-transform: uppercase;
+}
+
+#year, #country, #submit {
+	border-radius: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#year, #country {
+	width: 20em;
+	height: 2em;
+}
+
+#submit {
+	width: 10em;
+	margin: 20px;
+	-webkit-transition-duration: 0.4s; 
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #008CBA;
+}
+
+#submit:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+p {
+	font-size: 26px;
+
+}
