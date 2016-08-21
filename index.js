@@ -6,7 +6,6 @@ function getData(year, country){
 	$.getJSON(link, params, function (data) {
 		console.log(data);  
 		showData(data); 
-
 	});
 };
 
